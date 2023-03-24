@@ -3,7 +3,19 @@ body {
   justify-content: center;
 }
 
+.navbar {
+  background-color: #ffffff;
+  padding: 10px 0px 10px 0px;
+}
 .navbar a {
   text-decoration: none;
   color: #000000;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-right: 20px;
 }/*# sourceMappingURL=style.css.map */
