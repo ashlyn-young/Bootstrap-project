@@ -18,7 +18,7 @@ body {
 .container nav {
   display: flex;
   justify-content: space-around;
-  background-color: #whitesmoke;
+  background-color: whitesmoke;
   padding: 20px 0px 20px 0px;
 }
 .container .topText {
@@ -39,6 +39,7 @@ body {
   height: 65%;
   margin-left: 10px;
   margin-right: 10px;
+  margin-top: 15px;
   opacity: 75%;
 }
 
@@ -76,14 +77,34 @@ body {
 }
 
 .col-sm {
-  margin-right: 20px;
-  margin-left: 20px;
-  display: flex;
-  flex-direction: column;
+  text-align: center;
+  margin: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  /* background-color: rgba(255, 255, 255, 0.7); */
 }
 
 .purpleBrackets {
   color: purple;
   padding-left: 2px;
   padding-right: 2px;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.icon-text {
+  display: inline-block;
+  vertical-align: middle;
+  min-width: 70px; /* Add a fixed width for consistent alignment */
+}
+
+.icon-value {
+  min-width: 80px; /* Add a fixed width for consistent alignment */
+  text-align: center;
+  display: inline-block;
+  font-weight: bolder;
 }/*# sourceMappingURL=style.css.map */
