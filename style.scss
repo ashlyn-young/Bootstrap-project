@@ -28,7 +28,7 @@ body {
         margin-bottom: 10px;
     }
     .row {
-        margin-top: 10%;
+        // margin-top: 10%;
         display: flex;
         flex-direction: row;
 
@@ -40,8 +40,9 @@ body {
     .divider{
         border-left: 1px solid whitesmoke;
         height: 65%;
-        margin-left: 10;
+        margin-left: 10px;
         margin-right: 10px;
+        opacity: 75%;
     }
 
 }
@@ -73,6 +74,7 @@ body {
     font-weight: bold;
     display: inline-flex;
     margin-top: 5%;
+    margin-bottom: 10%;
 
 }
 .course {
@@ -83,7 +85,12 @@ body {
 .col-sm {
     margin-right: 20px;
     margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+
 }
 .purpleBrackets {
     color: purple;
+    padding-left: 2px;
+    padding-right: 2px;
 }
